@@ -6,3 +6,23 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
 }
+/* WebKit tabanlı tarayıcılar (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  border-radius: 0 !important; 
+}
+
+/* Firefox için */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #001831 #a5c9ff;
+}
