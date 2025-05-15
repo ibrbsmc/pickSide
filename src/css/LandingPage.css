@@ -45,6 +45,7 @@
   flex-direction: column;
   justify-content: space-between; /* İçeriği dikey olarak dağıt */
   padding: 10px; /* İç boşluk ekle */
+  gap: 20px;
 }
 
 .creator {
