@@ -4,7 +4,7 @@
     "home": "Anasayfa",
     "categories": "Kategoriler",
     "popular": "Popüler",
-        "winner": "Kazanan",
+    "winner": "Kazanan",
     "search": "Ara..."
   },
   "card": {
@@ -25,12 +25,12 @@
   },
   "quizzes": {
     "international-foods": {
-      "title": "En Iyi Uluslararası Yemekler",
+      "title": "En Iyi Uluslararasi Yemekler",
       "creator": "Yönetici",
       "category": "Yiyecekler"
     },
     "most-country": {
-      "title": "En Güzel Ülke",
+      "title": "En Guzel Ulke",
       "creator": "Yönetici",
       "category": "Yaşam"
     },
@@ -40,12 +40,12 @@
       "category": "Yaşam"
     },
     "strongest-animal": {
-      "title": "En Güçlü Hayvan",
+      "title": "En Guclu Hayvan",
       "creator": "Yönetici",
       "category": "Hayvanlar"
     },
     "fast-food": {
-      "title": "En Iyi Fast Food Restoranı",
+      "title": "En Iyi Fast Food Restorani",
       "creator": "Yönetici",
       "category": "Yiyecekler"
     },
@@ -55,17 +55,17 @@
       "category": "Yaşam"
     },
     "best-cartoon": {
-      "title": "Çocukluğumuzun En Iyi Çizgi Film Filmi",
+      "title": "Cocuklugumuzun En Iyi Cizgi Film Filmi",
       "creator": "Yönetici",
       "category": "Sinema"
     },
     "best-char": {
-      "title": "Gelmiş Geçmiş En Iyi Karakter",
+      "title": "Gelmis Gecmis En Iyi Karakter",
       "creator": "Yönetici",
       "category": "Sinema"
     },
     "best-films": {
-      "title": "Tüm Zamanların En Iyi Filmleri",
+      "title": "Tum Zamanlarin En Iyi Filmleri",
       "creator": "Yönetici",
       "category": "Sinema"
     },
@@ -75,17 +75,17 @@
       "category": "Teknoloji"
     },
     "best-ath": {
-      "title": "Tüm Zamanların En Büyük Atleti",
+      "title": "Tum Zamanlarin En Buyuk Atleti",
       "creator": "Yönetici",
       "category": "Spor"
     },
     "best-snack": {
-      "title": "En Iyi Atıştırmalık",
+      "title": "En Iyi Atistirmalik",
       "creator": "Yönetici",
       "category": "Yiyecekler"
     }
   },
-      "homePage": {
+  "homePage": {
     "favouritesTitle": "Hoşgeldiniz !"
   }
 }
