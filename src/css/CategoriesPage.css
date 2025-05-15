@@ -48,76 +48,15 @@
   justify-content: center;
 }
 
-/* Kart */
-.categories-page .lp-card {
-  width: 20rem;
-  cursor: pointer;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.4s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-  background-color: #1f1f1f;
-  color: white;
-}
-
-.categories-page .lp-card:hover {
-  transform: scale(1.05);
-  transition: .6s;
-}
-
-.categories-page .lp-card img {
-  border-bottom: 1px solid white;
-  height: 180px;
-  object-fit: cover;
-}
-
-/* Kart içeriği */
-.categories-page .quiz-body {
-  background: url(/fgjr7.jpg);
-  background-size: cover;
-  background-position: center;
-  padding: 20px;
-}
-
-.categories-page .creator{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    width: 50%;
-    background-color: darkcyan;
-    border: 2px solid black;
-    color: #eeee;
-    border-radius: 100px;
-    text-align: center;
-    position: relative;
-    top: -33px;
-    font-size: 14px;
-    gap: 5px;
-    text-shadow: 1px 2px 2px black;
-
-}
-
-.avatar{
-    width: 18px !important;
-    height: 18px !important;
-    font-size: 12px !important;
-    margin: 4px;
-    text-align: center;
-    background-color: silver !important;
-    color: white !important;
-}
-
 /* Başlık ve kategori */
 .categories-page .card-title {
   text-align: center;
-  font-size: 1.1em;
+  font-size: .9em;
   font-weight: bold;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -15px;
 }
 
 .categories-page .categories {
@@ -127,28 +66,4 @@
   align-items: center;
   justify-content: center;
   gap: 6px;
-}
-/* Mobil boyutları (480px ve altı) */
-@media (max-width: 480px) {
-  .categories-page .creator {
-    font-size: 11px;
-    width: 100%;
-    padding: 2px 5px;
-  }
-
-  .avatar {
-    width: 14px !important;
-    height: 14px !important;
-    font-size: 9px !important;
-  }
-}
-@media (max-width: 220px) {
-  .categories-page .creator {
-    display: none;
-  }
-
-  .categories-page .avatar {
-    display: none !important;
-    }
-
 }
