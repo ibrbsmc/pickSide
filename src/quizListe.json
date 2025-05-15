@@ -2,7 +2,7 @@
   {
     "id": "best-char",
     "popularity": "5",
-    "title": "Gelmiş Geçmiş En İyi Karakter",
+    "title": "Gelmis Gecmis En Iyi Karakter",
     "category": "Cinema",
     "image": "/quizwp/char-ever3.jpg",
     "creator":"Administrator",
@@ -44,7 +44,7 @@
   {
     "id": "most-country",
     "popularity": "3",
-    "title": "En Güzel Ülke",
+    "title": "En Guzel Ulke",
     "category": "Life",
     "image": "/quizwp/mostcount.jpg",
     "creator": "Administrator",
@@ -112,7 +112,7 @@
   {
     "id": "strongest-animal",
     "popularity": "2",
-    "title": "En Güçlü Hayvan",
+    "title": "En Guclu Hayvan",
     "category": "Animals",
     "image": "/quizwp/stanimal.jpg",
     "creator":"Administrator",
@@ -138,7 +138,7 @@
   {
     "id": "fast-food",
     "popularity": "2",
-    "title": "En İyi Fast Food Restoranı",
+    "title": "En Iyi Fast Food Restorani",
     "category": "Foods",
     "image": "/quizwp/fastfood.avif",
     "creator":"Administrator",
@@ -164,7 +164,7 @@
   {
     "id": "best-car",
     "popularity": "2",
-    "title": "En İyi Araba",
+    "title": "En Iyi Araba",
     "category": "Life",
     "image": "/quizwp/bestcar.jpg",
     "creator":"Administrator",
@@ -190,7 +190,7 @@
   {
     "id": "best-cartoon",
     "popularity": "2",
-    "title": "Çocukluğumuzun En İyi Çizgi Film Filmi",
+    "title": "Cocuklugumuzun En Iyi Cizgi Film Filmi",
     "category": "Cinema",
     "image": "/quizwp/best-cartoon.jpg",
     "creator":"Administrator",
@@ -216,7 +216,7 @@
   {
     "id": "international-foods",
     "popularity": "3",
-    "title": "En İyi Dünya Mutfağı",
+    "title": "En Iyi Dunya Mutfagi",
     "category": "Foods",
     "image": "/quizwp/inter-foods.jpg",
     "creator": "Administrator",
@@ -242,7 +242,7 @@
   {
     "id": "best-films",
     "popularity": "4",
-    "title": "Tüm Zamanların En İyi Filmleri",
+    "title": "Tum Zamanlarin En Iyi Filmleri",
     "category": "Cinema",
     "image": "/quizwp/best-films.jpg",
     "creator":"Administrator",
@@ -268,7 +268,7 @@
   {
     "id": "best-tec",
     "popularity": "4",
-    "title": "En İyi Teknoloji Şirketi",
+    "title": "En Iyi Teknoloji Sirketi",
     "category": "Technology",
     "image": "/quizwp/best-tec.avif",
     "creator":"Administrator",
@@ -294,7 +294,7 @@
   {
     "id": "best-ath",
     "popularity": "3",
-    "title": "Tüm Zamanların En İyi Atleti",
+    "title": "Tum Zamanlarin En Buyuk Atleti",
     "category": "Sports",
     "image": "/quizwp/best-ath.jpg",
     "creator":"Administrator",
@@ -336,7 +336,7 @@
   {
     "id": "best-snack",
     "popularity": "1",
-    "title": "En İyi Atıştırmalık",
+    "title": "En Iyi Atistirmalik",
     "category": "Foods",
     "image": "/quizwp/best-sna.jpg",
     "creator":"Administrator",
