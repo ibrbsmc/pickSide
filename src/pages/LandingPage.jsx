@@ -9,7 +9,6 @@ import quizListEn from '../quizList.json';
 import quizListTr from '../quizListe.json';
 import Header from '../components/Header';
 import Loading from '../components/Loading';
-import Edit from '../components/Edit';
 
 const LandingPage = ({ t, language, setLanguage }) => {
   const navigate = useNavigate();
@@ -79,9 +78,9 @@ const LandingPage = ({ t, language, setLanguage }) => {
                 </div>
                 <Card.Title>{quiz.title}</Card.Title>
                 <Card.Text className='categories'>
-                  <CategoryIcon sx={{ fontSize: '18px', marginRight: '5px' }} />
-                  {quiz.category}
-                </Card.Text>
+  <CategoryIcon sx={{ fontSize: '18px', marginRight: '5px' }} />
+  {t(`categoryNames.${quiz.category}`)}
+</Card.Text>
               </Card.Body>
             </Card>
           ))}
