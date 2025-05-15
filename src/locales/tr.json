@@ -1,0 +1,91 @@
+{
+  "header": {
+    "title": "PickSide",
+    "home": "Anasayfa",
+    "categories": "Kategoriler",
+    "popular": "Popüler",
+        "winner": "Kazanan",
+    "search": "Ara..."
+  },
+  "card": {
+    "creator": "Oluşturan",
+    "category": "Kategori"
+  },
+  "categories": {
+    "title": "Kategoriler",
+    "select": "Bir kategori seçin"
+  },
+  "categoryNames": {
+    "Foods": "Yiyecekler",
+    "Life": "Yaşam",
+    "Animals": "Hayvanlar",
+    "Cinema": "Sinema",
+    "Technology": "Teknoloji",
+    "Sports": "Spor"
+  },
+  "quizzes": {
+    "international-foods": {
+      "title": "En Iyi Uluslararası Yemekler",
+      "creator": "Yönetici",
+      "category": "Yiyecekler"
+    },
+    "most-country": {
+      "title": "En Güzel Ülke",
+      "creator": "Yönetici",
+      "category": "Yaşam"
+    },
+    "most-flag": {
+      "title": "En Zarif Bayrak",
+      "creator": "Yönetici",
+      "category": "Yaşam"
+    },
+    "strongest-animal": {
+      "title": "En Güçlü Hayvan",
+      "creator": "Yönetici",
+      "category": "Hayvanlar"
+    },
+    "fast-food": {
+      "title": "En Iyi Fast Food Restoranı",
+      "creator": "Yönetici",
+      "category": "Yiyecekler"
+    },
+    "best-car": {
+      "title": "En Iyi Araba",
+      "creator": "Yönetici",
+      "category": "Yaşam"
+    },
+    "best-cartoon": {
+      "title": "Çocukluğumuzun En Iyi Çizgi Film Filmi",
+      "creator": "Yönetici",
+      "category": "Sinema"
+    },
+    "best-char": {
+      "title": "Gelmiş Geçmiş En Iyi Karakter",
+      "creator": "Yönetici",
+      "category": "Sinema"
+    },
+    "best-films": {
+      "title": "Tüm Zamanların En Iyi Filmleri",
+      "creator": "Yönetici",
+      "category": "Sinema"
+    },
+    "best-tec": {
+      "title": "En Iyi Teknoloji Sirketi",
+      "creator": "Yönetici",
+      "category": "Teknoloji"
+    },
+    "best-ath": {
+      "title": "Tüm Zamanların En Büyük Atleti",
+      "creator": "Yönetici",
+      "category": "Spor"
+    },
+    "best-snack": {
+      "title": "En Iyi Atıştırmalık",
+      "creator": "Yönetici",
+      "category": "Yiyecekler"
+    }
+  },
+      "homePage": {
+    "favouritesTitle": "Hoşgeldiniz !"
+  }
+}

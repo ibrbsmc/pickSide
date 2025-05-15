@@ -1,0 +1,142 @@
+.l-page {
+  margin-top: 120px;
+  margin-bottom: 60px;
+}
+
+.lp-container {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  row-gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lp-card {
+  width: 336px; /* Sabit genişlik */
+  height: 335px; /* Sabit yükseklik */
+  cursor: pointer;
+  border-radius: 2px;
+  transition: .6s;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex; /* İçeriği dikey olarak hizalamak için */
+  flex-direction: column; /* Öğeleri dikey sırada düzenle */
+}
+
+.lp-card:hover {
+  scale: 1.05;
+  transition: .6s;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+.lp-card .card-img-top {
+  width: 100%;
+  height: 200px; /* Resim için sabit bir yükseklik */
+  object-fit: cover; /* Resmi kutuya sığdır ve gerekirse kırp */
+  border-bottom: 1px solid white;
+}
+
+.quiz-body {
+  background: url(/fgjr7.jpg);
+  background-size: cover;
+  color: white;
+  flex-grow: 1; /* Kalan alanı kapla */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* İçeriği dikey olarak dağıt */
+  padding: 10px; /* İç boşluk ekle */
+}
+
+.creator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px auto; /* Üst ve alt boşluk */
+  width: 60%;
+  background-color: darkcyan;
+  border: 2px solid black;
+  color: #eeee;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 12px;
+  gap: 5px;
+  text-shadow: 1px 2px 2px black;
+}
+
+.avatar {
+  width: 16px !important;
+  height: 16px !important;
+  font-size: 10px !important;
+  margin: 2px;
+  text-align: center;
+  background-color: silver !important;
+  color: white !important;
+}
+
+.l-page .card-title {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.l-page .categories {
+  text-align: center;
+  font-size: 0.85em;
+}
+
+/* Mobil boyutları (480px ve altı) */
+@media (max-width: 480px) {
+  .lp-card {
+    width: 100%; /* Mobil ekranda tam genişlik */
+    height: auto; /* Yüksekliği içeriğe göre ayarla */
+    flex-direction: column; /* Öğeleri alt alta sırala */
+  }
+
+  .lp-card .card-img-top {
+    height: 150px; /* Mobil için daha küçük resim yüksekliği */
+  }
+
+  .creator {
+    font-size: 11px;
+    width: 70%;
+    padding: 2px 5px;
+    margin-top: 10px; /* Üst boşluğu artır */
+  }
+
+  .avatar {
+    width: 14px !important;
+    height: 14px !important;
+    font-size: 9px !important;
+  }
+
+  .l-page .card-title {
+    font-size: 0.8em;
+  }
+
+  .l-page .categories {
+    font-size: 0.75em;
+  }
+}
+
+/* Daha küçük mobil boyutları (220px ve altı) */
+@media (max-width: 220px) {
+  .creator {
+    font-size: 8px;
+    width: 70%;
+    padding: 2px 5px;
+    margin-top: 8px;
+  }
+
+  .avatar {
+    display: none !important;
+  }
+
+  .l-page .card-title {
+    font-size: 0.7em;
+  }
+
+  .l-page .categories {
+    font-size: 0.65em;
+  }
+}

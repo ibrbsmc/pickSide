@@ -1,0 +1,91 @@
+{
+  "header": {
+    "title": "PickSide",
+    "home": "Home",
+    "categories": "Categories",
+    "popular": "Popular",
+        "winner": "Winner",
+    "search": "Search..."
+  },
+  "card": {
+    "creator": "Creator",
+    "category": "Category"
+  },
+  "categories": {
+    "title": "Categories",
+    "select": "Select a category"
+  },
+  "categoryNames": {
+    "Foods": "Foods",
+    "Life": "Life",
+    "Animals": "Animals",
+    "Cinema": "Cinema",
+    "Technology": "Technology",
+    "Sports": "Sports"
+  },
+  "quizzes": {
+    "international-foods": {
+      "title": "Best International Food",
+      "creator": "Administrator",
+      "category": "Foods"
+    },
+    "most-country": {
+      "title": "Most Beautiful Country",
+      "creator": "Administrator",
+      "category": "Life"
+    },
+    "most-flag": {
+      "title": "Most Elegant Flag",
+      "creator": "Administrator",
+      "category": "Life"
+    },
+    "strongest-animal": {
+      "title": "Strongest Animal",
+      "creator": "Administrator",
+      "category": "Animals"
+    },
+    "fast-food": {
+      "title": "Best Fast Food Restaurant",
+      "creator": "Administrator",
+      "category": "Foods"
+    },
+    "best-car": {
+      "title": "Best Car",
+      "creator": "Administrator",
+      "category": "Life"
+    },
+    "best-cartoon": {
+      "title": "Best Cartoon Film of Our Childhood",
+      "creator": "Administrator",
+      "category": "Cinema"
+    },
+    "best-char": {
+      "title": "Best Character Ever",
+      "creator": "Administrator",
+      "category": "Cinema"
+    },
+    "best-films": {
+      "title": "Best Films of All Time",
+      "creator": "Administrator",
+      "category": "Cinema"
+    },
+    "best-tec": {
+      "title": "Best Technology Company",
+      "creator": "Administrator",
+      "category": "Technology"
+    },
+    "best-ath": {
+      "title": "Greatest Athlete of All Time",
+      "creator": "Administrator",
+      "category": "Sports"
+    },
+    "best-snack": {
+      "title": "Best Snack",
+      "creator": "Administrator",
+      "category": "Foods"
+    }
+  },
+        "homePage": {
+    "favouritesTitle": "Welcome !"
+  }
+}

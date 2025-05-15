@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/marine-corps');
+
+.header-navbar {
+  background: url(../../public/fgjr7.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 70px;
+  border-bottom: 1px solid black;
+  padding: 0;
+}
+
+.header-container {
+  padding: 0 92px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: aqua !important;
+  font-size: 28px;
+  font-family: 'Marine Corps', sans-serif;
+  letter-spacing: 4px;
+  text-shadow: 1px 2px 2px black;
+  white-space: nowrap;
+  margin: 0 36px 0 0;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+}
+
+.header-links .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 500;
+  color: aqua;
+  white-space: nowrap;
+}
+
+.header-links .nav-link:hover {
+  color: white;
+  transition: .3s color ease;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.language-button {
+  padding: 6px 8px; /* Arama kutusu ile aynı padding */
+  font-size: 0.9em;
+  border-radius: 10px; /* Arama kutusu ile aynı border-radius */
+  border: 1px solid slateblue; /* Arama kutusu ile aynı border */
+  color: skyblue; /* Arama kutusu ile aynı renk */
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap; /* Buton yazısının tek satırda kalması için */
+  width: 38px;
+  height: auto;
+}
+
+.language-button:hover {
+  background-color: rgba(106, 90, 205, 0.2); /* Hover efekti */
+  color: white;
+}
+
+.header-search {
+  color: skyblue;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid slateblue;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  padding: 6px 8px;
+}
+.header-search:hover{
+    background-color: rgba(106, 90, 205, 0.2); /* Hover efekti */
+  color: white;
+  border: 1px solid white;
+}
+
+.search-input {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 989px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    gap: 15px;
+  }
+
+  .header-right {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .header-language {
+    margin-right: 10px;
+  }
+
+  .header-search {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    width: fit-content;
+    margin: auto;
+  }
+
+  .header-links {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-title {
+    font-size: 16px;
+  }
+
+  .header-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .header-search {
+    margin-top: 10px;
+    align-self: flex-start;
+  }
+}
+
+/* En küçük ekran */
+@media (max-width: 230px) {
+  .header-title {
+    font-size: 5px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.navbar-toggler {
+  background-color: aqua;
+}
+
+@media (max-width: 400px) {
+  .navbar-toggler {
+    position: relative;
+    margin-bottom: 15px !important;
+    margin: auto;
+  }
+
+  .header-title {
+    position: relative;
+    margin: auto;
+  }
+}
+
+.header-title-center {
+  margin: 0 auto;
+  text-align: center;
+}
